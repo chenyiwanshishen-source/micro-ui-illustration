@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-label="分层原子控件：分段选择与开关">
+<defs>
+<filter id="lc-base" x="-30%" y="-40%" width="160%" height="200%"><feDropShadow dy="3" stdDeviation="4" flood-color="var(--illus-shadow)" flood-opacity="0.08"/></filter>
+<filter id="lc-mid" x="-30%" y="-60%" width="160%" height="240%"><feDropShadow dy="5" stdDeviation="6" flood-color="var(--illus-shadow)" flood-opacity="0.10"/></filter>
+<filter id="lc-front" x="-40%" y="-70%" width="180%" height="260%"><feDropShadow dy="4" stdDeviation="5" flood-color="var(--illus-primary)" flood-opacity="0.16"/></filter>
+</defs>
+<rect width="480" height="320" fill="var(--illus-base)"/>
+<!-- Base: a single surface, without nested mock content. -->
+<rect x="64" y="64" width="320" height="184" rx="16" fill="var(--illus-carrier)" filter="url(#lc-base)"/>
+<!-- Middle: two sibling segments, no third layer of micro-controls. -->
+<g transform="rotate(-4 222 154)" filter="url(#lc-mid)">
+<rect x="112" y="120" width="104" height="64" rx="12" fill="var(--illus-primary-tint)"/>
+<rect x="228" y="120" width="104" height="64" rx="12" fill="var(--illus-neutral-1)"/>
+</g>
+<!-- Front: one recognisable switch. Its thumb belongs to the atomic control. -->
+<g transform="rotate(6 350 228)" filter="url(#lc-front)">
+<rect x="294" y="200" width="112" height="56" rx="28" fill="var(--illus-primary)"/>
+<circle cx="378" cy="228" r="20" fill="var(--illus-carrier)"/>
+</g>
+</svg>

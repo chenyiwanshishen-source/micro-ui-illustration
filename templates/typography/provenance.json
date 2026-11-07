@@ -1,0 +1,85 @@
+{
+  "sourceRoot": "packages/component-library",
+  "method": "React server render; extract SVG only; resolve used token definitions; preserve static SVG root filter; expand viewport to source 300x164 illustration stage; namespace IDs; omit card info and hover CSS",
+  "templates": [
+    {
+      "theme": "Typography",
+      "name": "Headings",
+      "source": "src/showcase/components/HeadingsCardIllustration.tsx",
+      "sha256": "8f4fb3a48f790c22bdd5bb96229fde4f2761dcc5f04d64f29456b83a178da0b5",
+      "originalViewBox": "0 0 230 130",
+      "exportViewBox": "-35 -17 300 164",
+      "static": true
+    },
+    {
+      "theme": "Typography",
+      "name": "Body",
+      "source": "src/showcase/components/BodyCardIllustration.tsx",
+      "sha256": "4037cc9876412e3d092f43f5580b0d0cf4c36f8ea40ee607d5566529b445871b",
+      "originalViewBox": "0 0 230 130",
+      "exportViewBox": "-35 -17 300 164",
+      "static": true
+    },
+    {
+      "theme": "Typography",
+      "name": "Table",
+      "source": "src/showcase/components/TableCardIllustration.tsx",
+      "sha256": "e04220672dcc32b1a43f820cb3115927e62ec2d75fe76b51f7d0b766c3d86b89",
+      "originalViewBox": "0 0 230 130",
+      "exportViewBox": "-35 -17 300 164",
+      "static": true
+    },
+    {
+      "theme": "Typography",
+      "name": "Metrics",
+      "source": "src/showcase/components/MetricsCardIllustration.tsx",
+      "sha256": "34b285d45b721c5342108129e9e986649d346e6b2ca280ad6103f0b1fc04e17d",
+      "originalViewBox": "0 0 230 130",
+      "exportViewBox": "-35 -17 300 164",
+      "static": true
+    },
+    {
+      "theme": "Typography",
+      "name": "Scales",
+      "source": "src/showcase/components/ScalesCardIllustration.tsx",
+      "sha256": "3020812d78d69eef07f8c0e61b8bfc33cc6d634adafb993bd011e68304eca1ed",
+      "originalViewBox": "0 0 230 130",
+      "exportViewBox": "-35 -17 300 164",
+      "static": true
+    }
+  ],
+  "templateEdits": {
+    "table": {
+      "reason": "User requested balanced outer padding and uniform row spacing",
+      "panel": [
+        20,
+        14,
+        190,
+        102
+      ],
+      "contentY": [
+        22,
+        108
+      ],
+      "outerPaddingY": 8,
+      "headerY": [
+        22,
+        40
+      ],
+      "bodyRowHeight": 18,
+      "rowCenters": [
+        49,
+        67,
+        85
+      ],
+      "footerY": [
+        94,
+        108
+      ],
+      "sourceUnchanged": true
+    },
+    "all": {
+      "backgroundToken": "Added explicit neutral-light-20 definition for self-contained SVG canvas"
+    }
+  }
+}

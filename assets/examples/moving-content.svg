@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<title>移动内容</title><desc>白卡中的图片内容从左上移向右下的收纳夹，圆角绿色箭头连接图片与文件夹。组件库配色，无轮廓描边。</desc>
+<defs>
+<filter id="paper" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#111827" flood-opacity=".065"/><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#111827" flood-opacity=".025"/></filter>
+<filter id="tag" x="-40%" y="-70%" width="180%" height="250%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#111827" flood-opacity=".07"/></filter>
+</defs>
+<rect width="1200" height="720" fill="#F8F9FA"/>
+<!-- Main object: one compact bookmark card -->
+<g transform="rotate(-6 550 350)">
+<rect x="365" y="164" width="356" height="392" rx="32" fill="#FFFFFF" filter="url(#paper)"/>
+<rect x="389" y="188" width="308" height="344" rx="20" fill="#ECFDF5"/>
+<!-- Source: one tangible content thumbnail, not text skeleton -->
+<g transform="translate(474 285) scale(1.08) translate(-474 -285) rotate(-7 474 285)">
+<rect x="421" y="234" width="106" height="114" rx="16" fill="#D1FAE5"/>
+<rect x="413" y="221" width="106" height="114" rx="16" fill="#FFFFFF" filter="url(#tag)"/>
+<rect x="425" y="233" width="82" height="90" rx="8" fill="#E0F2FE"/>
+<circle cx="485" cy="254" r="10" fill="#FFFFFF"/>
+<defs><clipPath id="mountain-frame"><rect x="425" y="233" width="82" height="90" rx="8"/></clipPath></defs>
+<g clip-path="url(#mountain-frame)">
+<path d="M452 323L479 286Q487 275 495 286L522 323Z" fill="#7DD3FC"/>
+<path d="M412 323L443 280Q451 269 459 280L490 323Z" fill="#38BDF8"/>
+</g>
+
+</g>
+<!-- One bold bent arrow connects source to destination -->
+<path d="M545 250H574Q614 250 614 290V349Q614 352 617 352H626Q631 352 628 356L609 376Q606 380 603 376L584 356Q581 352 586 352H595Q598 352 598 349V290Q598 266 574 266H545Q537 266 537 258Q537 250 545 250Z" fill="#10B981"/>
+<g transform="translate(0 58)">
+<!-- Destination folder: back, received content, front -->
+<path d="M544 348Q544 340 552 340H578Q581 340 583 342L588 347Q590 349 593 349H654Q662 349 662 357V405Q662 413 654 413H552Q544 413 544 405Z" fill="#A7F3D0"/>
+<rect x="563" y="333" width="78" height="67" rx="8" fill="#FFFFFF" transform="rotate(6 602 366)"/>
+<path d="M537 366Q537 358 545 358H571Q577 358 581 362L585 367Q587 369 591 369H660Q668 369 668 377V419Q668 427 660 427H545Q537 427 537 419Z" fill="#10B981"/>
+
+</g>
+
+
+</g>
+<!-- Related content categories, using the same solid shape language -->
+<g transform="rotate(4 764 451)">
+<rect x="651" y="410" width="230" height="94" rx="24" fill="#FFFFFF" filter="url(#tag)"/>
+<rect x="669" y="428" width="58" height="58" rx="16" fill="#D1FAE5"/>
+<path d="M689 441H707Q711 441 711 445V471Q711 474 708.5 472.5L699.5 467Q698 466 696.5 467L687.5 472.5Q685 474 685 471V445Q685 441 689 441Z" fill="#10B981"/>
+<rect x="737" y="428" width="58" height="58" rx="16" fill="#E0F2FE"/>
+<path d="M752 450Q752 446 756 446H761.5Q763 446 764 447L767 450Q768 451 769.5 451H777Q780 451 780 454V467Q780 470 777 470H755Q752 470 752 467Z" transform="translate(766 458) scale(1.25) translate(-766 -458)" fill="#0EA5E9"/>
+<rect x="805" y="428" width="58" height="58" rx="16" fill="#F8F9FA"/>
+<g fill="#9CA3AF"><circle cx="823" cy="457" r="3"/><circle cx="834" cy="457" r="3"/><circle cx="845" cy="457" r="3"/></g>
+</g>
+</svg>

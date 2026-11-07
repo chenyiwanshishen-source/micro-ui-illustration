@@ -1,0 +1,90 @@
+.cardContainer {
+  width: 100%;
+  max-width: 360px;
+  height: 204px;
+  border-radius: 16px;
+  background-color: var(--illus-carrier);
+  border: 1px solid var(--illus-border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px color-mix(in srgb, var(--illus-shadow) 2%, transparent);
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cardContainer:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px color-mix(in srgb, var(--illus-shadow) 8%, transparent), 0 1px 4px color-mix(in srgb, var(--illus-shadow) 4%, transparent);
+}
+
+.illusArea {
+  height: 128px;
+  background-color: var(--illus-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--illus-border);
+}
+
+.svgCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.stepCardLeft {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.stepCardCenter {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.stepCardRight {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cardContainer:hover .stepCardLeft {
+  transform: translateX(-5px);
+}
+.cardContainer:hover .stepCardCenter {
+  transform: translateY(-5px);
+}
+.cardContainer:hover .stepCardRight {
+  transform: translateX(5px);
+}
+
+.infoArea {
+  height: 76px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--illus-text);
+}
+
+.tagBadge {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--illus-secondary);
+  background-color: var(--illus-secondary-tint-3);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.descRow {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--illus-text-secondary);
+}

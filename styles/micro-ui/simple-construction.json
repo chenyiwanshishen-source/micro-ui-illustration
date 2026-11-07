@@ -1,0 +1,98 @@
+{
+  "name": "micro-ui-simple-2026-10-20",
+  "status": "Three examples received positive group feedback; no cross-theme quality guarantee",
+  "canvas": [
+    448,
+    224
+  ],
+  "source": "assets/examples/*.svg and historical cover-study/generate.py",
+  "coordinateScale": {
+    "note": "All figures are viewBox units, not screen px; reevaluate at final display size"
+  },
+  "paletteRoles": [
+    "base",
+    "paper",
+    "ink",
+    "muted",
+    "accent-50",
+    "accent-100",
+    "accent-200",
+    "accent-500",
+    "accent-700"
+  ],
+  "shadow": {
+    "dy": 5,
+    "stdDeviation": 7,
+    "opacity": 0.08,
+    "filterBounds": [
+      "-40%",
+      "-40%",
+      "180%",
+      "200%"
+    ]
+  },
+  "examples": {
+    "bookmarks": {
+      "primaryBox": [
+        131,
+        36,
+        152,
+        152
+      ],
+      "rotation": -7,
+      "pivot": [
+        207,
+        111
+      ],
+      "contentInset": [
+        16,
+        16
+      ],
+      "categoryBoxCurrent": [
+        259,
+        128,
+        112,
+        44
+      ]
+    },
+    "calendar": {
+      "primaryBox": [
+        129,
+        35,
+        178,
+        160
+      ],
+      "rotation": -5,
+      "pivot": [
+        218,
+        112
+      ],
+      "datePitch": [
+        30,
+        32
+      ],
+      "timeLabelTranslationAfterReview": [
+        22,
+        24
+      ]
+    },
+    "upload": {
+      "primaryBox": [
+        120,
+        55,
+        202,
+        138
+      ],
+      "rotation": -5,
+      "pivot": [
+        219,
+        117
+      ],
+      "contentInset": [
+        16,
+        16
+      ],
+      "fileRotation": 7
+    }
+  }
+}

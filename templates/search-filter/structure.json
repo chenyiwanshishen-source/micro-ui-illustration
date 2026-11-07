@@ -1,0 +1,54 @@
+{
+  "canvas": [
+    448,
+    224
+  ],
+  "theme": "Search and filtering",
+  "rearPanel": [
+    48,
+    36,
+    304,
+    156
+  ],
+  "contentX": [
+    64,
+    336
+  ],
+  "rows": [
+    [
+      64,
+      91,
+      272,
+      27
+    ],
+    [
+      64,
+      120,
+      272,
+      27
+    ],
+    [
+      64,
+      149,
+      272,
+      27
+    ]
+  ],
+  "rowPitch": 29,
+  "rowHeight": 27,
+  "foreground": [
+    280,
+    86,
+    124,
+    108
+  ],
+  "trigger": [
+    306,
+    54,
+    26,
+    22
+  ],
+  "relation": "A complete rear panel is painted first; the independent filter popover then occludes its right side. Underlying rows are not shortened, indented, clipped or reflowed for the popover.",
+  "source": "Local method-check illustration corrected following user feedback; conceptual UI, not a verified product screen.",
+  "status": "Structurally corrected and added at user request; user visual review of corrected result pending"
+}
