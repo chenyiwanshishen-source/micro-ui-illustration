@@ -23,4 +23,4 @@ Typography的Headings内容坐标为230×130，承载面在(20,14)、大小190×
 
 背景点缀可作为环境层，纹理可落在局部面，阴影可以区分承载与悬浮。是否采用、如何调整，可通过参考和渲染效果判断。
 
-[参考图谱与学习索引](../../references/visual-reference-map.md)记录用户参考与特征分析；[案例观察](failures.md)提供修订经验；[通用方法](../../references/reference-to-drawing.md)介绍如何把观察落实到绘制。
+[参考图片与分析记录](../../references/visual-reference-map.md)记录用户参考与特征分析；[案例观察](failures.md)提供修订经验；[通用方法](../../references/reference-to-drawing.md)介绍如何把观察落实到绘制。
