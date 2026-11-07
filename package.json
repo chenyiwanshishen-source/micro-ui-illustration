@@ -1,0 +1,23 @@
+{
+  "name": "micro-ui-illustration",
+  "version": "1.0.0",
+  "description": "Micro-UI Vector Illustration Skill & Construction Kit for AI Agents",
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "collect": "node scripts/collect-example.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.0"
+  },
+  "keywords": [
+    "ai-agent",
+    "skill",
+    "micro-ui",
+    "svg",
+    "design-system",
+    "vector-illustration"
+  ],
+  "author": "chenyiwanshishen-source",
+  "license": "MIT"
+}

@@ -4,4 +4,4 @@
 
 其他风格也可以使用同一套构思和矢量方法发展。后续有合适素材时，可按形体、线条、配色、空间和材质整理，并加入具体作品帮助理解。
 
-[颜色角色与对比](../references/reference-color-relationships.md)：三张用户参考及其浅色承载、实色强调、深色重心关系，按需查阅。
+[颜色角色与对比](../references/reference-color-relationships.md)：浅色承载、实色强调与深色重心的角色关系，按需查阅。
